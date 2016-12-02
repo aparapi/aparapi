@@ -14,12 +14,11 @@ First consider editing the properties in build.properties
    <echo>OS Arch:    ${os.arch}</echo>
    <echo>Java Ver:   ${java.version}</echo>
 
-   <!-- Ideally this would be the latest version of Java but not everyone is going to have it installed -->
-   <!-- Additionally we want to avoid "Class not found: javac1.8" errors from old Ant versions (i.e. Eclipse) -->
-   <property name="build.compiler" value="javac1.7"/>
-   <property name="ant.build.javac.source" value="1.7"/>
-   <property name="ant.build.javac.target" value="1.7"/>
-
+	<!-- Use this property to set the target javac version
+	<property name="build.compiler" value="javac1.8"/>
+	<property name="ant.build.javac.source" value="1.8"/>
+	<property name="ant.build.javac.target" value="1.8"/> -->
+	
    <property name="amd.app.sdk.version" value="2.9-1"/>
    
    <property environment="env" />
@@ -608,9 +607,9 @@ First consider editing the properties in build.properties
          <arg value="-DCL_USE_DEPRECATED_OPENCL_1_1_APIS"/>
          <!-- JDK 6 -->
          <arg value="-I/System/Library/Frameworks/JavaVM.framework/Headers" />
-         <!-- LATEST JDK 7 without JDK 6 -->
-         <arg value="-I/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/include/" />
-         <arg value="-I/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/include/darwin/" />
+         <!-- LATEST JDK 8 -->
+         <arg value="-I/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/include/" />
+         <arg value="-I/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/include/darwin/" />
          <arg value="-Iinclude" />
          <arg value="-Isrc/cpp" />
          <arg value="-Isrc/cpp/runKernel" />
