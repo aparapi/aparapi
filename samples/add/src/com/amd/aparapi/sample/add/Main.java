@@ -64,7 +64,7 @@ public class Main{
          }
       };
 
-      kernel.execute(Range.create(512));
+      kernel.execute(Range.create(size));
 
       for (int i = 0; i < size; i++) {
          System.out.printf("%6.2f + %6.2f = %8.2f\n", a[i], b[i], sum[i]);
