@@ -1,7 +1,7 @@
 aparapi
 =======
 
-This is the official home of Aparapi. Please see http://developer.amd.com/tools-and-sdks/open-source/ for additional AMD open-source contributions.
+This is the official home of AMD's Aparapi. Please see http://developer.amd.com/tools-and-sdks/open-source/ for additional AMD open-source contributions.
 
 Please refer to the [current documentation](doc/README.md) or the older docs on google code [Aparapi Google Code](https://code.google.com/p/aparapi/) for documentation.
 
