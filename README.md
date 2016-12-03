@@ -22,7 +22,7 @@ Download known working binary releases from [Aparapi Releases](https://github.co
 
 Developers:
 
-Every single project in Aparapi, including the root of the entire repository are Eclipse projects, althought execution entirely from the command-line is also supported.
+Every single project in Aparapi, including the root of the entire repository are Eclipse projects, although execution purely from the command-line is also supported.
 
 Steps:
 
