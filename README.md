@@ -1,11 +1,11 @@
 aparapi
 =======
 
-This is the new home of Aparapi.
+This is the official home of Aparapi. Please see http://developer.amd.com/tools-and-sdks/open-source/ for additional AMD open-source contributions.
 
 Please refer to the [current documentation](doc/README.md) or the older docs on google code [Aparapi Google Code](https://code.google.com/p/aparapi/) for documentation.
 
-We plan to implement Binary downloads at [GitHub Releases](https://help.github.com/articles/about-releases).
+We plan to implement Binary downloads at [Maven Central](http://central.sonatype.org/).
 
 Watch this space!
 
